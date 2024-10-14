@@ -1,0 +1,37 @@
+{
+  "name": "ohmyblog",
+  "version": "1.0.0",
+  "description": "A blog made in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lea-Bar/OhMyBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "js"
+  ],
+  "author": "Lea BAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lea-Bar/OhMyBlog/issues"
+  },
+  "homepage": "https://github.com/Lea-Bar/OhMyBlog#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "reflect-metadata": "^0.2.2",
+    "ts-node-dev": "^2.0.0",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.6.3"
+  }
+}
