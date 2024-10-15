@@ -1,4 +1,5 @@
 import express, { Application } from "express";
+import path from "path";
 
 class App {
     private readonly _app : Application;
@@ -12,7 +13,7 @@ class App {
     }
 
     public load(port : number){
-        this._app.use(express.static("./public"))
+        this._app.use(express.static(path.resolve(__dirname, "public")))
         this._app.set("view engine", "ejs")
         this._app.listen(port)
     }
