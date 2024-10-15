@@ -1,3 +1,4 @@
 import App from "./web/App";
+import WebConfig from "./config/web.json"
 
-App.load(8081)
+App.load(WebConfig.port)

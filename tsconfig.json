@@ -9,6 +9,7 @@
     "experimentalDecorators": true,
     "rootDir": "./src",
     "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   }
 }
